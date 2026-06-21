@@ -1,3 +1,7 @@
+import certAnthropic from "../assets/cert_anthropic.jpg"
+import certDeloitte from "../assets/cert_deloitte.pdf"
+import certInfosys from "../assets/cert_infosys.pdf"
+import certTata from "../assets/cert_tata.pdf"
 import { useRef, useState } from "react"
 import { motion, useInView } from "framer-motion"
 
@@ -9,7 +13,7 @@ const certs = [
         date: "June 2026",
         color: "#4a7c59",
         emoji: "🤖",
-        file: "/src/assets/cert_anthropic.jpg",
+        file: "/cert_anthropic.jpg",
         type: "image",
     },
     {
@@ -19,7 +23,7 @@ const certs = [
         date: "June 2026",
         color: "#86bc25",
         emoji: "📊",
-        file: "/src/assets/cert_deloitte.pdf",
+        file: "/cert_deloitte.pdf",
         type: "pdf",
     },
     {
@@ -29,7 +33,7 @@ const certs = [
         date: "2025",
         color: "#007cc3",
         emoji: "🐍",
-        file: "/src/assets/cert_infosys.pdf",
+        file: "/cert_infosys.pdf",
         type: "pdf",
     },
     {
@@ -39,7 +43,7 @@ const certs = [
         date: "2026",
         color: "#e31837",
         emoji: "✨",
-        file: "/src/assets/cert_tata.pdf",
+        file: "/cert_tata.pdf",
         type: "pdf",
     },
 ]
